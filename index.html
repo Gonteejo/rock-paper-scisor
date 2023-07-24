@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock-paper-scissors-lizard-Spock</h1>
+    </header>
+    <div class="main">
+        <div class="instructions">
+            <h2>how to play</h2>
+            <div class="innerinstr">
+            <p>Scissors cuts paper,
+              <br>paper covers rock,
+              <br>rock crushes lizard,
+              <br>lizard poisons Spock,
+              <br>Spock smashes scissors,
+              <br>scissors decapitates lizard,
+              <br>lizard eats paper,
+              <br>paper disproves Spock,
+              <br>Spock vaporizes rock,
+              <br>and as it always has,
+              <br>rock crushes scissors.</p>
+            <img src="./IMG/Instructions.png" alt="">
+          </div>
+        </div>
+        <div class="content">
+            <div class="play">
+                <div class="turn">
+                    <h2>player turn</h2>
+                    <p id="playerScore">Score: 0</p>
+                    <img id="playerChoise" src="./IMG/Blank.png" alt="Blank">
+                </div>
+                <div class="turn">
+                    <h2>Computer turn</h2>
+                    <p id="computerScore">Score: 0</p>
+                    <img id="computerChoise" src="./IMG/Blank.png" alt="Blank">
+                </div>
+            </div>
+            <div class="round">
+                <h1 id="roundNumber">Round 1</h1>
+            </div>
+        </div>
+    </div>
+    <div class="choise">
+      <button id="Rock"><img src="./IMG/Rock.png" alt="" /></button>
+      <button id="Paper"><img src="./IMG/Paper.png" alt="" /></button>
+      <button id="Scisor"><img src="./IMG/Scisor.png" alt="" /></button>
+      <button id="Lizard"><img src="./IMG/Lizard.png" alt="" /></button>
+      <button id="Spock"><img src="./IMG/Spock.png" alt="" /></button>
+    </div>
+    <footer>
+      &copy Gabriel Gontijo
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

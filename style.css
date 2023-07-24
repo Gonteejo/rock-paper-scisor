@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding: 0 8px;
+}
+
+header > h1 {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.main {
+    display: flex;
+    justify-content:space-between;
+}
+
+.instructions > h2 {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.innerinstr { 
+    display: flex;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.innerinstr > p {
+    width: 55%;
+}
+
+.play {
+    display: flex;
+}
+
+.turn {
+    width: 375px;
+    text-align: center;
+}
+
+.turn > img {
+    height: 247px;
+    width: 247px;
+}
+
+.round {
+    padding-left: 20%;
+}
+
+.choise {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+button,
+img {
+    border: none;
+    background: none;
+    height: 247px;
+  }
+
+  button:active {
+    transform: translateY(4px);
+  }
+
+  footer {
+    text-align: center;
+  }
